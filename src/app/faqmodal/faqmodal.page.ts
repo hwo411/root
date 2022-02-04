@@ -4,10 +4,12 @@ import { ModalController } from '@ionic/angular';
 
 import * as enUSFAQ from '../../assets/i18n/faq/en-US.json';
 import * as esESFAQ from '../../assets/i18n/faq/es-ES.json';
+import * as ruRUFAQ from '../../assets/i18n/faq/ru-RU.json';
 
 const faq = {
   'en-US': (enUSFAQ as any).default || enUSFAQ,
-  'es-ES': (esESFAQ as any).default || esESFAQ
+  'es-ES': (esESFAQ as any).default || esESFAQ,
+  'ru-RU': (ruRUFAQ as any).default || ruRUFAQ
 };
 
 @Component({
