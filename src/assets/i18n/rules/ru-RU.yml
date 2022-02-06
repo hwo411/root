@@ -4,48 +4,48 @@
   pretext: This chapter gives answers to technical, detailed questions. You do not need to read it when first learning.
   children:
     - name: Противоречие правил
-      children: 
-        - name: Старшинство
+      children:
+        - name: Старшинство.
           text: Если текст карты противоречит «Законам леса», он всегда превалирует. Если текст в правилах противоречит «Законам леса», вторые имеют приоритет над первыми. Если вы можете применить и общее правило, и правило фракции или наёмника, применяйте оба. Если это невозможно, применяйте правило фракции или наёмника.
-        - name: Правило невозможности
+        - name: Правило невозможности.
           text: Если правило запрещает что-либо, оно имеет приоритет над остальными правилами (если не сказано обратное).
-        - name: Разрешение одновременных событий
-          text: Если несколько эффектов или решений должны произойти одновременно, порядок их применения выбирает активный игрок (если не сказано обратное). Если эффект убирает несколько фигур одновременно и вызывает несколько эффектов от этого, уберите все фишка до применения этих эффектов.
-        - name: Одновременные эффекты
+        - name: Разрешение одновременных событий.
+          text: Если несколько эффектов или решений должны произойти одновременно, порядок их применения выбирает активный игрок (если не сказано обратное). Если эффект убирает несколько компонентов одновременно и вызывает несколько эффектов от этого, уберите все компоненты до применения этих эффектов.
+        - name: Одновременные эффекты.
           text: Если 2 эффекта срабатывают одновременно, порядок их применения выбирает активный игрок (если не сказано обратное).
-        - name: Правило замены
+        - name: Правило замены.
           text: Если эффект говорит вам **считать** одну вещь другой, то первая временно использует все свойства и компоненты второй. _(Например, если вы вызвали беспорядки, считаясь другим игроком, то этот другой игрок должен отдать карту Союзу.)_
 
-    - name: Public and Private Information
+    - name: Скрытая и открытая информация
       children:
-        - name: Hands.
-          text: Players may only show or reveal cards in their hand if explicitly instructed, but the number of cards in their hand is public information. `faction:riverfolk:11.2.3`
-        - name: Discard.
-          text: The discard pile can be searched and inspected at any time.
-          
-    - name: Negotiation and Deals
-      children:
-        - name: Agreements.
-          text: Players may discuss the game and make agreements, but they are non-binding.
-        - name: Cards.
-          text: Players may only give cards to each other if explicitly instructed.
-    
-    - name: Game Structure
-      children:
-        - name: Turn Structure.
-          text: > 
-            Each player's turn has three phases: Birdsong, Daylight, and Evening. Anything that says "at start of" a phase happens before everything else in the phase, and anything that says "at end of" happens after everything else in the phase but before the start of the next phase, if any. After a player ends Evening, the next clockwise player begins their turn. Play continues until one player has won the game (`rule:3.1`).
-        - name: Interrupts.
-          text: You cannot interrupt an action _(including a compound action such as the Marquise's March)_, ability _(such as the Corvids' Exposure)_, or persistent effect _(such as the Eyrie Emigre card)_ with another effect unless it explicitly allows it. _(For example, the Armorers card says it is used "In battle...")_.
+        - name: Рука.
+          text: Игроки могут показывать или открывать карты в руке, только когда на это указывают правила. Число карт в руке игрока — открытая информация. `faction:riverfolk:11.2.3`
+        - name: Сброс.
+          text: Игроки всегда могут просматривать карты в сбросе.
 
-    - name: Pieces
+    - name: Договоры и сделки
       children:
-        - name: Limits.
-          text: Pieces are limited by the contents of the game. Do not use proxy pieces if you run out.
-        - name: Starting Faction.
-          text: Each player owns the faction they choose in setup (5) and the pieces listed on the back of its faction board except for items. Generically, these are called **faction pieces** or similar. Specifically, these are called **[faction name]** pieces. _(For example, "your faction warriors" and "warriors of your faction" and "Marquise warriors" all refer to the orange wooden cat-shaped warriors.)_ 
-        - name: Piece Ownership.
-          text: The ownership of faction pieces cannot change. _(For example, the Marquise cannot use Field Hospitals on Riverfolk mercenaries or hirelings, since these are not Marquise warriors.)_
+        - name: Соглашения.
+          text: Участники могут обсуждать игровую ситуацию и заключать любые соглашения, но правила игры не обязывают исполнять их.
+        - name: Карты.
+          text: Игроки не могут передавать друг другу карты, если не сказано обратное.
+
+    - name: Структура игры
+      children:
+        - name: Ход игры.
+          text: >
+            Ход каждого игрока состоит из 3 фаз: утро, день и вечер. Всё, что должно произойти "в начале" фазы, происходит до всего остального в этой же фазе. Всё, что должно произойти "в конце" фазы, происходит после всего остального в этой фазе но до начала следующей фазы. Завершив фазу вечер, игрок передаёт ход следующему участнику по часовой стрелке. Партия продолжается, пока один из участников не выиграет (`rule:3.1`).
+        - name: Прерывания.
+          text: Вы не можете прерывать действия _(включая составные действия, такие как Марш Маркисы)_, способности _(такие как Разоблачение Ворон)_, или постоянных эффектов _(таких как карта Перебежчик)_ другим эффектом, если не сказано обратное. _(Например, карта Оружейники говорит, что она используется "В бою...")_.
+
+    - name: Компоненты
+      children:
+        - name: Ограничения.
+          text: Компонентов не может быть больше, чем их существует в игре. Не используйте прокси-компоненты, если какой-то компонент закончился.
+        - name: Стартовая фракция.
+          text: Каждый игрок владеет фракцией, которую они выбрали при подготовке к игре (5), и компонентами, указанными на обратной стороне планшета их фракции, кроме предметов. В общем, они называются **компонентами фракции**. Каждый конкретный набор называется **компонентами [имя фракции]**. _(Например, "воины твоей фракции" и "воины Маркисы" обозначают деревянных оранжевых воинов в форме котиков.)_
+        - name: Владелец компонентов.
+          text: Владелец компонентов фракции не может измениться. _(Например, Маркиса не может использовать Полевой Госпиталь на наёмников Компании "Речное братство" или наёмников, так как они не являются воинами Маркисы. Иными словами она не владеет ими.)_
         - name: Piece Manipulation.
           text: Pieces are placed and removed as defined in the Glossary (`rule:16.6.19`, `rule:16.6.22`). If you are prompted to place, take, or remove pieces but you cannot do so fully, you must place, take, or remove the maximum number possible. _(This does not allow you to avoid costs or prerequisites. You just cannot do less than the most you can.)_
         - name: Use of **Force**.
